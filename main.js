@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function filtrarPorPrecioMenor() {
-    const precioLimite = 8000; // Precio límite para el filtro por precio menor
+    const precioLimite = 8000;
 
     const productosFiltrados = products.filter((producto) => {
         return producto.precio <= precioLimite;
@@ -54,7 +54,7 @@ function filtrarPorPrecioMenor() {
 }
 
 function filtrarPorPrecioMayor() {
-    const precioLimite = 7600; // Precio límite para el filtro por precio mayor
+    const precioLimite = 7600;
 
     const productosFiltrados = products.filter((producto) => {
         return producto.precio > precioLimite;
@@ -65,7 +65,7 @@ function filtrarPorPrecioMayor() {
 
 function renderizarProductosFiltrados(productos) {
     const containerProducts = document.getElementById("container-productos");
-    containerProducts.innerHTML = ""; // Limpiamos el contenedor antes de renderizar los productos filtrados
+    containerProducts.innerHTML = "";
 
     productos.forEach((prod) => {
         const div = document.createElement('div')
