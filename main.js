@@ -25,18 +25,18 @@ buttonCompra.addEventListener('click', () => {
 
 
 
-// DOMContentLoaded
+
 document.addEventListener("DOMContentLoaded", () => {
     boxCreate();
     aJson();
     obtenerObjetos();
-    // Event listener para el botón de filtrar por precio menor
+    
     const filtroMenorBtn = document.getElementById("filtro-menor");
     filtroMenorBtn.addEventListener("click", () => {
         filtrarPorPrecioMenor();
     });
 
-    // Event listener para el botón de filtrar por precio mayor
+    
     const filtroMayorBtn = document.getElementById("filtro-mayor");
     filtroMayorBtn.addEventListener("click", () => {
         filtrarPorPrecioMayor();
@@ -104,11 +104,11 @@ function aJson() {
 }
 
 
-//.JSON
+
 async function obtenerObjetos() {
     const direccion = await fetch("./data.json");
     const response = await direccion.json();
-    // guarda en el array la respuesta de los datos
+    
     products = response;
     boxCreate();
 }
@@ -143,8 +143,6 @@ function boxCreate() {
     });
 }
 
-
-// agregar producto al carrito
 function pushearCard(id) {
     const producto = products.find((p) => p.id == id);
     if (!producto) {
@@ -163,7 +161,7 @@ function pushearCard(id) {
     localStorage.setItem('cart', JSON.stringify(arrayCard))
     renderizarCard();
 }
-// renderizamos el carrito
+
 function renderizarCard() {
     cardContainer.innerHTML = "";
     if (arrayCard.length < 1) {
