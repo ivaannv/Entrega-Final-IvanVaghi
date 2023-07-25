@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+/* CSS BODY */
+
+/* creacion de variables */
+
+:root {
+    --fuente-media: 18px;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS MENU */
+
+#menu{
+   background-color:#000000e5 !important;
+
+}
+.escudo-river{
+    width: 90px;
+}
+.navbar-toggler {
+    background-color: white;
+    max-height: 55px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.navbar-brand{
+    margin-right: 350px;
+}
+.menu_items{
+    display: flex;
+}
+
+.title-iven{
+   font-weight: bold;
+   color: #ffffff;
+   font-size: 28px;
+   text-align: center;
+}
+#menu li>a {
+    font-size: var(--fuente-media);
+    font-weight: bold;
+    color: black !;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.navbar-toggler-icon{
+   color: #fff !important;
+}
+.btn-fill{
+    padding: 13px 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.contain-btns{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.agregar_carrito{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.precioProducto{
+    margin-right: 20px;
+}
+
+#container-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max-content;
+    padding-bottom: 100px;
+
+}
+
+.title-product {
+    font-size: 18px;
+}
+
+
+.cajaProductos {
+    background-color: rgba(246, 246, 246, 0.821);
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3em;
+    margin-top: 2em;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+img {
+    width: 170px;
+}
+
+img:hover{
+    filter: brightness(2px);
+}
+
+.destacados{
+   text-align: center;
+   margin-top: 2em;
+   color: rgb(0, 0, 0);
+   
+}
+
+
+#carrito-de-compras{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   flex-wrap: wrap;
+}
+
+.agregar__carrito{
+   text-decoration: none;
+   color: #000 ;
+   border: 1px solid #000;
+   padding: 4px 8px ;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.agregar__carrito:hover{
+    background-color: rgba(155, 155, 155, 0.842);
+    border-color: black 15px;
+    border-radius: 50px;
+}
+
+.cantidad{
+   text-decoration: none;
+   color: #000;
+}
+.container-precio{
+   text-align: center;
+}
+
+#vaciar-carrito{
+   border: 1px solid #000;
+   background-color: none;
+   border-radius: 20px;
+   padding: 4px 10px;
+}
+
+.container-cart-card{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.titulo-cart{
+    font-size: 16px;
+
+}
+
+.container-cart-card-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantidad-cart{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: .6em;
+}
+.price-cart{
+font-size: 16px;
+}
+
+.img-cart{
+    width: 80px;
+}
+
+
+
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
