@@ -1,15 +1,15 @@
 [
     {
-       "id":1,"nombre":"Buzo Blanco","precio":12000,"img":"../img/buzo-blanco.webp","cantidad":1
+       "id":1,"nombre":"Buzo Blanco","precio":12000,"img":"./img/buzo-blanco.webp","cantidad":1
     },
     {
-        "id":2,"nombre":"Buzo Negro","precio":12000,"img":"../img/buzo-negro.webp","cantidad":1
+        "id":2,"nombre":"Buzo Negro","precio":12000,"img":"./img/buzo-negro.webp","cantidad":1
     },   
     {
-        "id":3,"nombre":"Remera Blanca","precio":7500,"img":"../img/remera-blanca.webp","cantidad":1
+        "id":3,"nombre":"Remera Blanca","precio":7500,"img":"./img/remera-blanca.webp","cantidad":1
     },
     {
-        "id":4,"nombre":"Remera Negra","precio":7500,"img":"../img/remera-negra.webp","cantidad":1
+        "id":4,"nombre":"Remera Negra","precio":7500,"img":"./img/remera-negra.webp","cantidad":1
     }
 ]
 
