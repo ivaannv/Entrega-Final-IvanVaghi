@@ -122,13 +122,12 @@ function boxCreate() {
         div.classList.add("cajaProductos");
         div.innerHTML = `
         <h4 class='title-product'>${prod.nombre}</h4>
-        <img src=${prod.img} alt='camiseta'/>
+        <img src=${prod.img} alt='Remera'/>
         <p>Cantidad: ${prod.cantidad}</p>
         <p>Precio: $ ${prod.precio}</p>
         <a class="agregar__carrito" id="button${prod.id}">Agregar al carrito</a>
         `;
         containerProducts.appendChild(div);
-        // agregamos funcionalidad al boton
         const agregar = document.getElementById(`button${prod.id}`);
         agregar.addEventListener("click", () => {
             Swal.fire({
