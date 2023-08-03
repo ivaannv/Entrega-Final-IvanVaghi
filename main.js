@@ -219,7 +219,6 @@ function eliminarDelCard(id) {
 }
 
 buttomdelate.addEventListener('click', () => {
-    alert('se vacio del carrito')
     arrayCard.length = 0;
     counter.innerText = 0;
     totalprice.innerText = arrayCard.reduce((acc, producto) => acc - producto.precio, 0);

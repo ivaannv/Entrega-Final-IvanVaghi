@@ -4,12 +4,22 @@
     },
     {
         "id":2,"nombre":"Buzo Negro","precio":12000,"img":"./img/buzo-negro.webp","cantidad":1
-    },   
-    {
-        "id":3,"nombre":"Remera Blanca","precio":7500,"img":"./img/remera-blanca.webp","cantidad":1
     },
     {
-        "id":4,"nombre":"Remera Negra","precio":7500,"img":"./img/remera-negra.webp","cantidad":1
+        "id":3,"nombre":"Buzo Negro Palm Angel","precio":12500,"img":"./img/buzo-negro-2.webp","cantidad":1
+    },    
+    {
+        "id":4,"nombre":"Remera Blanca","precio":7500,"img":"./img/remera-blanca.webp","cantidad":1
+    },
+    {
+        "id":5,"nombre":"Remera Negra","precio":7500,"img":"./img/remera-negra.webp","cantidad":1
+    },
+    {
+        "id":6,"nombre":"Pantalon Cargo Negro","precio":17500,"img":"./img/pantalon-cargo-negro.webp","cantidad":1
+    },
+    {
+        "id":7,"nombre":"Pantalon Cargo Beige","precio":17500,"img":"./img/pantalon-cargo-beige.webp","cantidad":1
     }
 ]
+
 
